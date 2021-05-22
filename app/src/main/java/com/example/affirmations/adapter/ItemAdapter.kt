@@ -24,6 +24,7 @@ class ItemAdapter(private val context: Context, private val dataset: List<Affirm
          * Definimos el ViewHolder como una clase interna en el Adapter.
          * Debemos proveer una referencia a cada view del ítem.
          * Hereda de RecyclerView.ViewHolder
+         * Cada item es un objeto Affirmation
          */
         val imageView: ImageView = view.findViewById(R.id.item_image)
         val textView: TextView = view.findViewById(R.id.item_title)
