@@ -1,6 +1,9 @@
 # affirmations-recyclerview
 Just an android native recyclerview with some in-app data.
 
+This app is my version of the official Android training by Google:
+https://developer.android.com/courses/pathways/android-basics-kotlin-unit-2-pathway-3
+
 This app has a recyclerview in the mainactivity that shows some items. All the data is within the app.
 Parts of the app:
 1. Affirmation class.
